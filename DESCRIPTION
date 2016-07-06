@@ -10,3 +10,5 @@ License: CC0
 LazyData: TRUE
 RoxygenNote: 5.0.1
 Suggests: gdqr
+URL: https://github.com/bkkkk/gdqData
+BugReports: https://github.com/bkkkk/gdqData/issues
