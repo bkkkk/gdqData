@@ -7,7 +7,7 @@ The package is being actively developed so more events will be added as time goe
 The currently available datasets are:
 
 | Event | Runs | Donations |
-|--|--|--|
+|---|---|---|
 | SGDQ2016 | No | Yes |
 | SGDQ2015 | No | Yes |
 | SGDQ2014 | No | No |
