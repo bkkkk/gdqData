@@ -10,16 +10,16 @@ The currently available datasets are:
 |---|---|---|
 | SGDQ2016 | No | No |
 | SGDQ2015 | Yes | Yes |
-| SGDQ2014 | No | No |
-| SGDQ2013 | No | No |
-| SGDQ2012 | No | No |
-| SGDQ2011 | No | No |
-| AGDQ2016 | No | No |
-| AGDQ2015 | No | No |
-| AGDQ2014 | No | No |
-| AGDQ2013 | No | No |
-| AGDQ2012 | No | No |
-| AGDQ2011 | No | No |
+| SGDQ2014 | Yes | No |
+| SGDQ2013 | Yes | No |
+| SGDQ2012 | Yes | No |
+| SGDQ2011 | Yes | No |
+| AGDQ2016 | Yes | No |
+| AGDQ2015 | Yes | No |
+| AGDQ2014 | Yes | No |
+| AGDQ2013 | Yes | No |
+| AGDQ2012 | Yes | No |
+| AGDQ2011 | N/A | No |
 | CGDQ | No | No |
 | JRDQ | No | No |
 | Spook | No | No |
