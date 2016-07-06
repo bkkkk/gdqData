@@ -29,4 +29,9 @@ This package contains two kinds of data for each event:
 * `donations` - Data on all donations made during the event, including the time of the donation, the amount, the donator name, and whether the donator included a comment
 * `runs` - Data on games run at the event including start and end times, the name of the game, the runners, a description of the run, and whether it has a bid war associated with it.
 
+## Installation
 
+```
+# install.packages("devtools")
+install_github("bkkkk/gdaData")
+```
