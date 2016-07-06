@@ -1,0 +1,12 @@
+Package: gdqData
+Type: Package
+Title: Data package containing donations and runs data for Games Done Quick speedrunning events
+Version: 0.1.0
+Authors@R: person("Jacobo", "Blanco", email = "jayb88@gmail.com", role = c("aut", "cre"))
+Description: This is a data package which contains data associated with the Games Done Quick events.
+Depends:
+    R (>= 2.10)
+License: CC0
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Suggests: gdqr
