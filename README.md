@@ -22,7 +22,7 @@ The currently available datasets are:
 | AGDQ2011 | N/A | No |
 | CGDQ | N/A | Yes |
 | JRDQ | N/A | Yes |
-| Spook | N/A | No |
+| Spook | N/A | Yes |
 
 This package contains two kinds of data for each event:
 

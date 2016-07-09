@@ -65,3 +65,11 @@
 #' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
 #'  and \code{with_comment} (did the donator leave a comment with their donation)
 "cgdq_donations"
+
+#' CGDQ Donations
+#'
+#' Donations made during CGDQ.
+#'
+#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
+#'  and \code{with_comment} (did the donator leave a comment with their donation)
+"spook_donations"

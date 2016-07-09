@@ -80,5 +80,5 @@ devtools::use_data(jrdq_donations)
 cgdq_donations <- tidy_donations(fetch_donations("cgdq"))
 devtools::use_data(cgdq_donations)
 
-# spook_donations <- tidy_donations(fetch_donations("spook"))
-# devtools::use_data(spook_donations)
+spook_donations <- tidy_donations(fetch_donations("spook"))
+devtools::use_data(spook_donations)
