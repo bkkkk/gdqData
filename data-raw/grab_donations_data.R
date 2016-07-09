@@ -2,11 +2,19 @@ library(gdqr)
 
 # SGDQ
 
+# sgdq2016_donations <- tidy_donations(fetch_donations("sgdq2016"))
+# devtools::use_data(sgdq2016_donations)
+
+# sgdq2016_runs <- tidy_runs(fetch_runs("sgdq2016"))
+# devtools::use_data(sgdq2016_runs)
+
+
 sgdq2015_donations <- tidy_donations(fetch_donations("sgdq2015"))
 devtools::use_data(sgdq2015_donations)
 
 sgdq2015_runs <- tidy_runs(fetch_runs("sgdq2015"))
 devtools::use_data(sgdq2015_runs)
+
 
 # sgdq2014_donations <- tidy_donations(fetch_donations("sgdq2014"))
 # devtools::use_data(sgdq2014_donations)
