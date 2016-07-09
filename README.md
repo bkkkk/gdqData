@@ -20,7 +20,7 @@ The currently available datasets are:
 | AGDQ2013 | Yes | No |
 | AGDQ2012 | Yes | No |
 | AGDQ2011 | N/A | No |
-| CGDQ | N/A | No |
+| CGDQ | N/A | Yes |
 | JRDQ | N/A | Yes |
 | Spook | N/A | No |
 
