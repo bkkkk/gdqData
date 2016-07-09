@@ -10,7 +10,7 @@ The currently available datasets are:
 |---|---|---|
 | SGDQ2016 | No | No |
 | SGDQ2015 | Yes | Yes |
-| SGDQ2014 | Yes | No |
+| SGDQ2014 | Yes | Yes |
 | SGDQ2013 | Yes | No |
 | SGDQ2012 | Yes | No |
 | SGDQ2011 | Yes | No |

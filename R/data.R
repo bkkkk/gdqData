@@ -15,6 +15,14 @@
 #'  (whether there are bid wars associated with the run)
 "sgdq2015_runs"
 
+#' SGDQ2014 Donations
+#'
+#' Donations made during SGDQ2014.
+#'
+#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
+#'  and \code{with_comment} (did the donator leave a comment with their donation)
+"sgdq2014_donations"
+
 #' SGDQ2014 Runs
 #'
 #' Runs shown at SGDQ2014.
