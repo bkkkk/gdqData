@@ -74,8 +74,8 @@ devtools::use_data(agdq2012_runs)
 
 # Others
 
-# jrdq_donations <- tidy_donations(fetch_donations("jrdq"))
-# devtools::use_data(jrdq_donations)
+jrdq_donations <- tidy_donations(fetch_donations("jrdq"))
+devtools::use_data(jrdq_donations)
 
 # cgdq_donations <- tidy_donations(fetch_donations("cgdq"))
 # devtools::use_data(cgdq_donations)
