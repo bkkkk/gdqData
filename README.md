@@ -8,7 +8,7 @@ The currently available datasets are:
 
 | Event | Runs | Donations |
 |---|---|---|
-| SGDQ2016 | No | No |
+| SGDQ2016 | Yes | Yes |
 | SGDQ2015 | Yes | Yes |
 | SGDQ2014 | Yes | Yes |
 | SGDQ2013 | Yes | No |

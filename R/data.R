@@ -1,3 +1,21 @@
+#' SGDQ2016 Donations
+#'
+#' Donations made during SGDQ2016.
+#'
+#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
+#'  and \code{with_comment} (did the donator leave a comment with their donation)
+"sgdq2016_donations"
+
+#' SGDQ2016 Runs
+#'
+#' Runs shown at SGDQ2016.
+#'
+#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
+#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
+#'  (whether there are bid wars associated with the run)
+"sgdq2016_runs"
+
+
 #' SGDQ2015 Donations
 #'
 #' Donations made during SGDQ2015.
