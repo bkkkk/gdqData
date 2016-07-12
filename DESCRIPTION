@@ -9,6 +9,8 @@ Depends:
 License: CC0
 LazyData: TRUE
 RoxygenNote: 5.0.1
-Suggests: gdqr
+Suggests: gdqr,
+    testthat
 URL: https://github.com/bkkkk/gdqData
 BugReports: https://github.com/bkkkk/gdqData/issues
+Imports: dplyr
