@@ -74,8 +74,8 @@ agdq2013_runs <- tidy_runs(fetch_runs("agdq2013"))
 devtools::use_data(agdq2013_runs)
 
 
-# agdq2012_donations <- tidy_donations(fetch_donations("agdq2012"))
-# devtools::use_data(agdq2012_donations)
+agdq2012_donations <- tidy_donations(fetch_donations("agdq2012"))
+devtools::use_data(agdq2012_donations)
 
 agdq2012_runs <- tidy_runs(fetch_runs("agdq2012"))
 devtools::use_data(agdq2012_runs)
