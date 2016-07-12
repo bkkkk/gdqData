@@ -354,3 +354,19 @@
 #'
 #' @source \url{http://www.gamesdonequick.com}
 "sgdq2011_donations"
+
+
+#' AGDQ2011 Donations
+#'
+#' Donations made during AGDQ2011.
+#'
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2011_donations"
