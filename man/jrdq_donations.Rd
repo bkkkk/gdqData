@@ -4,8 +4,16 @@
 \name{jrdq_donations}
 \alias{jrdq_donations}
 \title{JRDQ Donations}
-\format{A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
- and \code{with_comment} (did the donator leave a comment with their donation)}
+\format{A data frame with four variables:
+\describe{
+  \item{donator}{name of donator}
+  \item{date}{date of donation as POSIXct object}
+  \item{amount}{amount donated in dollars}
+  \item{with_comment}{did the donator leave a comment with their donation}
+}}
+\source{
+\url{http://www.gamesdonequick.com}
+}
 \usage{
 jrdq_donations
 }

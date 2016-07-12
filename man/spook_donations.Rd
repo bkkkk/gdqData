@@ -4,8 +4,13 @@
 \name{spook_donations}
 \alias{spook_donations}
 \title{CGDQ Donations}
-\format{A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
- and \code{with_comment} (did the donator leave a comment with their donation)}
+\format{A data frame with four variables:
+\describe{
+  \item{donator}{name of donator}
+  \item{date}{date of donation as POSIXct object}
+  \item{amount}{amount donated in dollars}
+  \item{with_comment}{did the donator leave a comment with their donation}
+}}
 \usage{
 spook_donations
 }

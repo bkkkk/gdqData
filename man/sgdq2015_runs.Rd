@@ -4,9 +4,18 @@
 \name{sgdq2015_runs}
 \alias{sgdq2015_runs}
 \title{SGDQ2015 Runs}
-\format{A data frame with six variables: \code{game}, \code{players}, \code{description},
- \code{start_time}, \code{end_time}, and \code{has_bid_wars}
- (whether there are bid wars associated with the run)}
+\format{A data frame with 6 variables:
+\describe{
+ \item{game}{name of the game}
+ \item{players}{name of the runners, comma separated}
+ \item{description}{description of the run}
+ \item{start_time}{run start date and time}
+ \item{end_time}{run end date and time}
+ \item{has_bid_wars}{whether there are bid wars associated with the run}
+ }}
+\source{
+\url{http://www.gamesdonequick.com}
+}
 \usage{
 sgdq2015_runs
 }

@@ -2,8 +2,15 @@
 #'
 #' Donations made during SGDQ2016.
 #'
-#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
-#'  and \code{with_comment} (did the donator leave a comment with their donation)
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2016_donations"
 
 
@@ -11,9 +18,17 @@
 #'
 #' Runs shown at SGDQ2016.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2016_runs"
 
 
@@ -21,8 +36,15 @@
 #'
 #' Donations made during SGDQ2015.
 #'
-#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
-#'  and \code{with_comment} (did the donator leave a comment with their donation)
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2015_donations"
 
 
@@ -30,9 +52,17 @@
 #'
 #' Runs shown at SGDQ2015.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2015_runs"
 
 
@@ -40,8 +70,15 @@
 #'
 #' Donations made during SGDQ2014.
 #'
-#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
-#'  and \code{with_comment} (did the donator leave a comment with their donation)
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2014_donations"
 
 
@@ -49,9 +86,17 @@
 #'
 #' Runs shown at SGDQ2014.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2014_runs"
 
 
@@ -59,9 +104,17 @@
 #'
 #' Runs shown at SGDQ2013.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2013_runs"
 
 
@@ -69,9 +122,17 @@
 #'
 #' Runs shown at SGDQ2012.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2012_runs"
 
 
@@ -79,9 +140,17 @@
 #'
 #' Runs shown at SGDQ2011.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "sgdq2011_runs"
 
 
@@ -89,8 +158,15 @@
 #'
 #' Donations made during JRDQ.
 #'
-#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
-#'  and \code{with_comment} (did the donator leave a comment with their donation)
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "jrdq_donations"
 
 
@@ -98,8 +174,15 @@
 #'
 #' Donations made during CGDQ.
 #'
-#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
-#'  and \code{with_comment} (did the donator leave a comment with their donation)
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "cgdq_donations"
 
 
@@ -107,8 +190,13 @@
 #'
 #' Donations made during CGDQ.
 #'
-#' @format A data frame with four variables:  \code{donator}, \code{date}, \code{amount},
-#'  and \code{with_comment} (did the donator leave a comment with their donation)
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
 "spook_donations"
 
 
@@ -116,9 +204,17 @@
 #'
 #' Runs shown at AGDQ2011.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "agdq2011_runs"
 
 
@@ -126,9 +222,17 @@
 #'
 #' Runs shown at AGDQ2012.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "agdq2012_runs"
 
 
@@ -136,9 +240,17 @@
 #'
 #' Runs shown at AGDQ2013.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "agdq2013_runs"
 
 
@@ -146,9 +258,17 @@
 #'
 #' Runs shown at AGDQ2014.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "agdq2014_runs"
 
 
@@ -156,9 +276,17 @@
 #'
 #' Runs shown at AGDQ2015.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "agdq2015_runs"
 
 
@@ -166,7 +294,15 @@
 #'
 #' Runs shown at AGDQ2016.
 #'
-#' @format A data frame with six variables: \code{game}, \code{players}, \code{description},
-#'  \code{start_time}, \code{end_time}, and \code{has_bid_wars}
-#'  (whether there are bid wars associated with the run)
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
 "agdq2016_runs"
