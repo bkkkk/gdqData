@@ -37,8 +37,8 @@ sgdq2012_runs <- tidy_runs(fetch_runs("sgdq2012"))
 devtools::use_data(sgdq2012_runs)
 
 
-# sgdq2011_donations <- tidy_donations(fetch_donations("sgdq2011"))
-# devtools::use_data(sgdq2011_donations)
+sgdq2011_donations <- tidy_donations(fetch_donations("sgdq2011"))
+devtools::use_data(sgdq2011_donations)
 
 sgdq2011_runs <- tidy_runs(fetch_runs("sgdq2011"))
 devtools::use_data(sgdq2011_runs)
