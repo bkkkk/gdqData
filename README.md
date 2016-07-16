@@ -15,9 +15,9 @@ The currently available datasets are:
 | SGDQ2012 | Yes | Yes |
 | SGDQ2011 | Yes | Yes |
 | AGDQ2016 | Yes | No |
-| AGDQ2015 | Yes | No |
-| AGDQ2014 | Yes | No |
-| AGDQ2013 | Yes | No |
+| AGDQ2015 | Yes | Yes |
+| AGDQ2014 | Yes | Yes |
+| AGDQ2013 | Yes | Yes |
 | AGDQ2012 | Yes | Yes |
 | AGDQ2011 | N/A | Yes |
 | CGDQ | N/A | Yes |

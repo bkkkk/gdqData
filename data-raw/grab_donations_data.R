@@ -53,22 +53,22 @@ agdq2016_runs <- tidy_runs(fetch_runs("agdq2016"))
 devtools::use_data(agdq2016_runs)
 
 
-# agdq2015_donations <- tidy_donations(fetch_donations("agdq2015"))
-# devtools::use_data(agdq2015_donations)
+agdq2015_donations <- tidy_donations(fetch_donations("agdq2015"))
+devtools::use_data(agdq2015_donations)
 
 agdq2015_runs <- tidy_runs(fetch_runs("agdq2015"))
 devtools::use_data(agdq2015_runs)
 
 
-# agdq2014_donations <- tidy_donations(fetch_donations("agdq2014"))
-# devtools::use_data(agdq2014_donations)
+agdq2014_donations <- tidy_donations(fetch_donations("agdq2014"))
+devtools::use_data(agdq2014_donations)
 
 agdq2014_runs <- tidy_runs(fetch_runs("agdq2014"))
 devtools::use_data(agdq2014_runs)
 
 
-# agdq2013_donations <- tidy_donations(fetch_donations("agdq2013"))
-# devtools::use_data(agdq2013_donations)
+agdq2013_donations <- tidy_donations(fetch_donations("agdq2013"))
+devtools::use_data(agdq2013_donations)
 
 agdq2013_runs <- tidy_runs(fetch_runs("agdq2013"))
 devtools::use_data(agdq2013_runs)

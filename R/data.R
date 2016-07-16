@@ -386,3 +386,51 @@
 #'
 #' @source \url{http://www.gamesdonequick.com}
 "agdq2012_donations"
+
+
+#' AGDQ2013 Donations
+#'
+#' Donations made during AGDQ2013.
+#'
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2013_donations"
+
+
+#' AGDQ2014 Donations
+#'
+#' Donations made during AGDQ2014.
+#'
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2014_donations"
+
+
+#' AGDQ2015 Donations
+#'
+#' Donations made during AGDQ2015.
+#'
+#' @format A data frame with four variables:
+#' \describe{
+#'   \item{donator}{name of donator}
+#'   \item{date}{date of donation as POSIXct object}
+#'   \item{amount}{amount donated in dollars}
+#'   \item{with_comment}{did the donator leave a comment with their donation}
+#' }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2015_donations"
