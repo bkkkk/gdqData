@@ -15,12 +15,18 @@
  }}
 \source{
 \url{http://www.gamesdonequick.com}
+
+\url{http://www.gamesdonequick.com}
 }
 \usage{
+sgdq2013_runs
+
 sgdq2013_runs
 }
 \description{
 Runs shown at SGDQ2013.
+
+Runs shown at AGDQ2013.
 }
 \keyword{datasets}
 

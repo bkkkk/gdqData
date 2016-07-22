@@ -434,3 +434,124 @@
 #'
 #' @source \url{http://www.gamesdonequick.com}
 "agdq2015_donations"
+
+
+#' AGDQ2011 Runs
+#'
+#' Runs shown at AGDQ2011.
+#'
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2011_runs"
+
+#' AGDQ2012 Runs
+#'
+#' Runs shown at AGDQ2012.
+#'
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"sgdq2011_runs"
+
+#' SGDQ2011 Runs
+#'
+#' Runs shown at SGDQ2011.
+#'
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2012_runs"
+
+#' AGDQ2013 Runs
+#'
+#' Runs shown at AGDQ2013.
+#'
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"sgdq2013_runs"
+
+
+#' AGDQ2014 Runs
+#'
+#' Runs shown at AGDQ2014.
+#'
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2014_runs"
+
+#' AGDQ2015 Runs
+#'
+#' Runs shown at AGDQ2015.
+#'
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2015_runs"
+
+#' AGDQ2016 Runs
+#'
+#' Runs shown at AGDQ2016.
+#'
+#' @format A data frame with 6 variables:
+#' \describe{
+#'  \item{game}{name of the game}
+#'  \item{players}{name of the runners, comma separated}
+#'  \item{description}{description of the run}
+#'  \item{start_time}{run start date and time}
+#'  \item{end_time}{run end date and time}
+#'  \item{has_bid_wars}{whether there are bid wars associated with the run}
+#'  }
+#'
+#' @source \url{http://www.gamesdonequick.com}
+"agdq2016_runs"
