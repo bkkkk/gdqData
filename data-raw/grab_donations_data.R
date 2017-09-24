@@ -53,6 +53,13 @@ devtools::use_data(sgdq2011_runs)
 
 # AGDQ
 
+agdq2017_donations <- tidy_donations(fetch_donations("agdq2017"))
+devtools::use_data(agdq2017_donations)
+
+agdq2017_runs <- tidy_runs(fetch_runs("agdq2017"))
+devtools::use_data(agdq2017_runs)
+
+
 agdq2016_donations <- tidy_donations(fetch_donations("agdq2016"))
 devtools::use_data(agdq2016_donations)
 
