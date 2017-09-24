@@ -8,12 +8,14 @@ The currently available datasets are:
 
 | Event | Runs | Donations |
 |---|---|---|
+| SGDQ2017 | Yes | Yes |
 | SGDQ2016 | Yes | Yes |
 | SGDQ2015 | Yes | Yes |
 | SGDQ2014 | Yes | Yes |
 | SGDQ2013 | Yes | Yes |
 | SGDQ2012 | Yes | Yes |
 | SGDQ2011 | Yes | Yes |
+| AGDQ2017 | Yes | Yes |
 | AGDQ2016 | Yes | Yes |
 | AGDQ2015 | Yes | Yes |
 | AGDQ2014 | Yes | Yes |
@@ -31,7 +33,7 @@ This package contains two kinds of data for each event:
 
 ## Installation
 
-```
+```R
 # install.packages("devtools")
 install_github("bkkkk/gdaData")
 ```
